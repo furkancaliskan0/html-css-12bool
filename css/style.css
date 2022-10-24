@@ -15,6 +15,16 @@
     min-height: 60px;
 }
 
+.nested{
+    padding: 10px;
+    display: flex; 
+}
+
+.nested div{
+    margin-inline:1px;
+    background-color: #1be777;
+}
+
 h2{
     margin: 5px auto;
 }
