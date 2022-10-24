@@ -7,7 +7,7 @@
 
 /* container */
 .container{
-    max-width: 1170px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -24,7 +24,19 @@
     flex-direction: row;
 }
 
+
+
 /* colonne */
+
+[class*="col-1"] {
+    flex: 0 0 auto;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
 
 .col-1{
     max-width: calc((100% / 12) * 1);
